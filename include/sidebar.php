@@ -30,14 +30,12 @@
                             <span>BUP</span>
                         </a>
                     </li>
-
                     <li class="sidebar-item  ">
                         <a href="form-layout.html" class='sidebar-link'>
                             <i class="bi bi-file-earmark-medical-fill"></i>
                             <span>BUE</span>
                         </a>
                     </li>
-
                     <li class="sidebar-title">Pages</li>
 
                     <li class="sidebar-item  ">
@@ -62,15 +60,14 @@
                             <span>RT</span>
                         </a>
                     </li>
-
-                    <li class="sidebar-item  ">
-                        <img src="assets/apps/kn/knidcore.png" alt="">
+                    <li class="sidebar-item">
+                        <center>
+                            <br>
+                            <hr>
+                            <img src="assets/apps/kn/knidcore.png" alt="">
+                        </center>
                     </li>
                 </ul>
-
-                <div>
-                    <img src="assets/apps/kn/knidcore.png" alt="">
-                </div>
             </div>
             <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
         </div>
