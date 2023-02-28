@@ -5,15 +5,14 @@
     <div class="page-title">
       <div class="row">
         <div class="col-12 col-md-6 order-md-1 order-last">
-          <h3>Vertical Layout with Navbar</h3>
-          <p class="text-subtitle text-muted">Navbar will appear in top of the page.</p>
+          <h3>Dashboard</h3>
+          <p class="text-subtitle text-muted">Date <?= date('d F Y') ?> - Time <?= date('H:i A') ?></p>
         </div>
         <div class="col-12 col-md-6 order-md-2 order-first">
           <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Layout Vertical Navbar
-              </li>
+              <li class="breadcrumb-item active"><a href="index.php">Dashboard</a></li>
+              <!-- <li class="breadcrumb-item active" aria-current="page">Dashboard</li> -->
             </ol>
           </nav>
         </div>
@@ -29,12 +28,12 @@
             <div class="card-body px-3 py-4-5">
               <div class="row">
                 <div class="col-md-4">
-                  <div class="stats-icon purple">
-                    <i class="iconly-boldShow"></i>
+                  <div class="stats-icon darkblue">
+                    <i class="iconly-boldUpload"></i>
                   </div>
                 </div>
                 <div class="col-md-8">
-                  <h6 class="text-muted font-semibold">Profile Views</h6>
+                  <h6 class="text-muted font-semibold">Upload BUP</h6>
                   <h6 class="font-extrabold mb-0">112.000</h6>
                 </div>
               </div>
@@ -46,12 +45,12 @@
             <div class="card-body px-3 py-4-5">
               <div class="row">
                 <div class="col-md-4">
-                  <div class="stats-icon blue">
-                    <i class="iconly-boldProfile"></i>
+                  <div class="stats-icon lightblue">
+                    <i class="iconly-boldPaper"></i>
                   </div>
                 </div>
                 <div class="col-md-8">
-                  <h6 class="text-muted font-semibold">Followers</h6>
+                  <h6 class="text-muted font-semibold">Record BUP</h6>
                   <h6 class="font-extrabold mb-0">183.000</h6>
                 </div>
               </div>
@@ -63,12 +62,12 @@
             <div class="card-body px-3 py-4-5">
               <div class="row">
                 <div class="col-md-4">
-                  <div class="stats-icon green">
-                    <i class="iconly-boldAdd-User"></i>
+                  <div class="stats-icon lightgreen">
+                    <i class="iconly-boldUpload"></i>
                   </div>
                 </div>
                 <div class="col-md-8">
-                  <h6 class="text-muted font-semibold">Following</h6>
+                  <h6 class="text-muted font-semibold">Upload BUE</h6>
                   <h6 class="font-extrabold mb-0">80.000</h6>
                 </div>
               </div>
@@ -80,12 +79,12 @@
             <div class="card-body px-3 py-4-5">
               <div class="row">
                 <div class="col-md-4">
-                  <div class="stats-icon red">
-                    <i class="iconly-boldBookmark"></i>
+                  <div class="stats-icon natural4">
+                    <i class="iconly-boldPaper"></i>
                   </div>
                 </div>
                 <div class="col-md-8">
-                  <h6 class="text-muted font-semibold">Saved Post</h6>
+                  <h6 class="text-muted font-semibold">Record BUE</h6>
                   <h6 class="font-extrabold mb-0">112</h6>
                 </div>
               </div>
@@ -294,3 +293,5 @@
     </div>
   </section>
 </div>
+<script src="assets/vendors/apexcharts/apexcharts.js"></script>
+<script src="assets/js/pages/dashboard.js"></script>

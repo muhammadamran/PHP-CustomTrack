@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="icon" href="assets/apps/icon/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/vendors/iconly/bold.css">
 </head>
 
 <body>

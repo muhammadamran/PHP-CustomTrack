@@ -1080,6 +1080,32 @@
     color:#fff;
     font-size:1.7rem
 }
+/* KN COLOR */
+.stats-icon.darkblue{
+    background-color:#003369
+}
+.stats-icon.lightblue{
+    background-color:#0099DA
+}
+.stats-icon.lightgreen{
+    background-color:#08C792
+}
+.stats-icon.natural1{
+    background-color:#F6F5F0
+}
+.stats-icon.natural2{
+    background-color:#C5C6BF
+}
+.stats-icon.natural3{
+    background-color:#929288
+}
+.stats-icon.natural4{
+    background-color:#62635B
+}
+.stats-icon.natural5{
+    background-color:#373832
+}
+/* KN COLOR */
 .stats-icon.purple{
     background-color:#9694ff
 }
