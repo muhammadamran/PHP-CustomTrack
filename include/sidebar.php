@@ -24,22 +24,22 @@
                     <li class="sidebar-title">Data</li>
 
 
-                    <li class="sidebar-item  ">
-                        <a href="form-layout.html" class='sidebar-link'>
+                    <li class="sidebar-item <?= !empty($_GET['m']) && $_GET['m'] == 'BUP' ? 'active' : '' ?>">
+                        <a href="index.php?m=BUP&s=index" class='sidebar-link'>
                             <i class="bi bi-file-earmark-medical-fill"></i>
                             <span>BUP</span>
                         </a>
                     </li>
-                    <li class="sidebar-item  ">
-                        <a href="form-layout.html" class='sidebar-link'>
+                    <li class="sidebar-item <?= !empty($_GET['m']) && $_GET['m'] == 'BUE' ? 'active' : '' ?>">
+                        <a href="index.php?m=BUE&s=index" class='sidebar-link'>
                             <i class="bi bi-file-earmark-medical-fill"></i>
                             <span>BUE</span>
                         </a>
                     </li>
                     <li class="sidebar-title">Pages</li>
 
-                    <li class="sidebar-item  ">
-                        <a href="ui-file-uploader.html" class='sidebar-link'>
+                    <li class="sidebar-item <?= !empty($_GET['m']) && $_GET['m'] == 'upload' ? 'active' : '' ?>">
+                        <a href="index.php?m=upload&s=index" class='sidebar-link'>
                             <i class="bi bi-cloud-arrow-up-fill"></i>
                             <span>File Uploader</span>
                         </a>
@@ -47,15 +47,15 @@
 
                     <li class="sidebar-title">Raise Support</li>
 
-                    <li class="sidebar-item  ">
-                        <a href="https://zuramai.github.io/mazer/docs" class='sidebar-link'>
+                    <li class="sidebar-item <?= !empty($_GET['m']) && $_GET['m'] == 'documentation' ? 'active' : '' ?>">
+                        <a href="index.php?m=documentation&s=index" class='sidebar-link'>
                             <i class="bi bi-life-preserver"></i>
                             <span>Documentation</span>
                         </a>
                     </li>
 
                     <li class="sidebar-item  ">
-                        <a href="https://github.com/zuramai/mazer/blob/main/CONTRIBUTING.md" class='sidebar-link'>
+                        <a href="mailto:KNJKT_CI.HELP-RT@KUEHNE-NAGEL.COM?cc=titok.radityo@kuehne-nagel.com,amran.siregar@kuehne-nagel.com&subject=[Add%20Ticket]Report%20Customs%20Track&body=Body-goes-here" target="_blank" class='sidebar-link'>
                             <i class="bi bi-puzzle"></i>
                             <span>RT</span>
                         </a>
