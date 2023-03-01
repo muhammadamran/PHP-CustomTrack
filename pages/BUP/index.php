@@ -82,6 +82,9 @@ if (isset($_POST['find'])) {
                                         </td>
                                         <?php
                                         $fileBUP   = $row['original_name'];
+                                        // KN-IDCORE
+                                        // $dbName    = $_SERVER["DOCUMENT_ROOT"] . "customtrack/file/BUPBUE/$fileBUP";
+                                        // Local
                                         $dbName    = $_SERVER["DOCUMENT_ROOT"] . "customtrack/file/BUPBUE/$fileBUP";
                                         if (!file_exists($dbName)) {
                                             die("Could not find database file.");

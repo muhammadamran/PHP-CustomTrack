@@ -1,5 +1,7 @@
 <?php
-$dbName = $_SERVER["DOCUMENT_ROOT"] . "customtrack/pibpeb/230228111429.BUP";
+// var_dump($_SERVER["DOCUMENT_ROOT"]);
+// exit;
+$dbName = "C:/xampp/htdocs/customtrack/pibpeb/230228111429.BUP";
 if (!file_exists($dbName)) {
     die("Could not find database file.");
 }
